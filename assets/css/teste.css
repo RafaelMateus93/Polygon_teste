@@ -1,0 +1,21 @@
+.numberListPar {
+  width: 50%;
+  background-color: blue;
+  color: #fff;
+  display: inline-block; }
+
+.numberListImpar {
+  width: 50%;
+  background-color: black;
+  color: #fff;
+  display: inline-block; }
+
+.numberListView {
+  display: flex; }
+  .numberListView .numberListView_item {
+    flex-grow: 1;
+    list-style: none; }
+
+.numberListView-par .numberListView_item:nth-child(even) {
+  background-color: yellow;
+  color: #000; }
